@@ -58,7 +58,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use multiset::HashMultiSet;
+    /// use modern_multiset::HashMultiSet;
     ///
     /// let multiset: HashMultiSet<char> = HashMultiSet::new();
     /// ```
@@ -75,7 +75,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use multiset::HashMultiSet;
+    /// use modern_multiset::HashMultiSet;
     /// let mut multiset = HashMultiSet::new();
     /// multiset.insert(0);
     /// multiset.insert(0);
@@ -100,7 +100,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use multiset::HashMultiSet;
+    /// use modern_multiset::HashMultiSet;
     ///
     /// let mut multiset = HashMultiSet::new();
     /// assert!(multiset.is_empty());
@@ -120,7 +120,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use multiset::HashMultiSet;
+    /// use modern_multiset::HashMultiSet;
     ///
     /// let set: HashMultiSet<_> = [1, 2, 3].iter().cloned().collect();
     /// assert_eq!(set.contains(&1), true);
@@ -141,7 +141,7 @@ where
     /// A new empty `HashMultiSet` with 0 total elements:
     ///
     /// ```
-    /// use multiset::HashMultiSet;
+    /// use modern_multiset::HashMultiSet;
     ///
     /// let multiset: HashMultiSet<char> = HashMultiSet::new();
     /// assert_eq!(0, multiset.len());
@@ -150,7 +150,7 @@ where
     /// A `HashMultiSet` from `vec![1,1,2]` has 3 total elements:
     ///
     /// ```
-    /// use multiset::HashMultiSet;
+    /// use modern_multiset::HashMultiSet;
     /// use std::iter::FromIterator;
     ///
     /// let multiset: HashMultiSet<i32> = FromIterator::from_iter(vec![1,1,2]);
@@ -168,7 +168,7 @@ where
     /// namely `1` and `2`, but not `3`:
     ///
     /// ```
-    /// use multiset::HashMultiSet;
+    /// use modern_multiset::HashMultiSet;
     /// use std::collections::HashSet;
     /// use std::iter::FromIterator;
     ///
@@ -190,7 +190,7 @@ where
     /// Insert `5` into a new `HashMultiSet`:
     ///
     /// ```
-    /// use multiset::HashMultiSet;
+    /// use modern_multiset::HashMultiSet;
     ///
     /// let mut multiset: HashMultiSet<i32> = HashMultiSet::new();
     /// assert_eq!(0, multiset.count_of(&5));
@@ -208,7 +208,7 @@ where
     /// Insert three `5`s into a new `HashMultiSet`:
     ///
     /// ```
-    /// use multiset::HashMultiSet;
+    /// use modern_multiset::HashMultiSet;
     ///
     /// let mut multiset: HashMultiSet<i32> = HashMultiSet::new();
     /// assert_eq!(0, multiset.count_of(&5));
@@ -236,7 +236,7 @@ where
     /// Remove `5` from a new `HashMultiSet`:
     ///
     /// ```
-    /// use multiset::HashMultiSet;
+    /// use modern_multiset::HashMultiSet;
     ///
     /// let mut multiset: HashMultiSet<i32> = HashMultiSet::new();
     /// multiset.insert(5);
@@ -258,7 +258,7 @@ where
     /// Remove `5`s from a `HashMultiSet` containing 3 of them.
     ///
     /// ```
-    /// use multiset::HashMultiSet;
+    /// use modern_multiset::HashMultiSet;
     ///
     /// let mut multiset: HashMultiSet<i32> = HashMultiSet::new();
     /// multiset.insert_times(5, 3);
@@ -291,7 +291,7 @@ where
     /// Remove all `5`s from a `HashMultiSet` containing 3 of them.
     ///
     /// ```
-    /// use multiset::HashMultiSet;
+    /// use modern_multiset::HashMultiSet;
     ///
     /// let mut multiset: HashMultiSet<i32> = HashMultiSet::new();
     /// multiset.insert_times(5,3);
@@ -310,7 +310,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use multiset::HashMultiSet;
+    /// use modern_multiset::HashMultiSet;
     ///
     /// let mut multiset: HashMultiSet<u8> = HashMultiSet::new();
     /// multiset.insert(0);
@@ -337,7 +337,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use multiset::HashMultiSet;
+    /// use modern_multiset::HashMultiSet;
     /// use std::iter::FromIterator;
     ///
     /// let lhs: HashMultiSet<isize> = FromIterator::from_iter(vec![1,2,3]);
@@ -371,7 +371,7 @@ where
     /// # Examples
     ///
     /// ```
-    /// use multiset::HashMultiSet;
+    /// use modern_multiset::HashMultiSet;
     /// use std::iter::FromIterator;
     ///
     /// let lhs: HashMultiSet<isize> = FromIterator::from_iter(vec![1,2,3]);
@@ -401,7 +401,7 @@ where
     /// Count occurrences of each `char` in `"hello world"`:
     ///
     /// ```
-    /// use multiset::HashMultiSet;
+    /// use modern_multiset::HashMultiSet;
     /// use std::iter::FromIterator;
     ///
     /// let vals = vec!['h','e','l','l','o',' ','w','o','r','l','d'];
