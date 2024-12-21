@@ -5,4 +5,4 @@ authors = ["Sebastian Schmidt <isibboi@gmail.com>"]
 repository = "https://github.com/ISibboI/multiset"
 description = "A hash multiset implementation."
 keywords = ["multiset", "data-structure", "collection", "count", "hash"]
-license = "GPLv3"
+license = "GPL-3.0"
