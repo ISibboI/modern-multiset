@@ -11,6 +11,7 @@ use std::ops::{Add, Sub};
 
 /// A hash-based multiset.
 #[derive(Clone, Default, Eq)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 pub struct HashMultiSet<K>
 where
     K: Eq + Hash,
