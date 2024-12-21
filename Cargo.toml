@@ -1,8 +1,8 @@
 [package]
-name = "multiset"
-version = "0.0.5"
-repository = "https://github.com/jmitchell/multiset"
-description = "Multisets/bags"
-keywords = ["multiset","bag","data-structure","collection","count"]
-license = "MIT/Apache-2.0"
-authors = ["Jake Mitchell <jacob.d.mitchell@gmail.com>"]
+name = "modern-multiset"
+version = "0.0.0"
+authors = ["Sebastian Schmidt <isibboi@gmail.com>"]
+repository = "https://github.com/ISibboI/multiset"
+description = "A hash multiset implementation."
+keywords = ["multiset", "data-structure", "collection", "count", "hash"]
+license = "GPLv3"
